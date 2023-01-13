@@ -1,0 +1,131 @@
+.card{
+    border: 2px solid rgb(56, 207, 104); 
+    box-shadow: 0 0 5px rgb(239, 202, 202);
+    width:250px;
+    margin: 20px;
+}
+.card-title{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.home-cards{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.home-cards > .card{
+    display: inline-block;
+}
+
+.addcart{
+    outline: none;
+    border: none;
+    background-color: rgb(59, 128, 53);
+    color: white;
+    margin-bottom: 1px;
+    height: 35px;;
+    width: 99%;
+}
+
+.addcart:hover{
+    background-color: rgb(128, 99, 70);
+}
+
+.order-area{
+    font-size: medium;
+    margin-top: 50px;
+}
+.order-total{
+    font-size: medium;
+    margin-top: 10px;
+    background-color: rgb(83, 111, 120);
+    color: white;
+    font-weight: bold;
+}
+.order-card,.order-total{
+    font-size: medium;
+    margin: 0 0 10px 20%;
+    border: 1px solid rgb(31, 33, 27);
+    width: 60%;
+    padding: 10px;
+}
+
+.order-item,.order-qty,.order-price{
+    font-size: medium;
+    display: inline-flex;
+    min-width: 28%;
+
+}
+
+
+.qty-btn{
+    font-weight: bold;
+    background:white;
+    outline: none;
+    border: 1px solid rgb(31, 33, 27);
+    /* display: inline-flex; */
+    padding: 2px 7px;
+}
+.qty-input{
+    width: 30px;
+    text-align: center;
+}
+.qty-btn:hover{
+    background: rgb(148, 150, 162);
+}
+.delete-btn{
+    color: red;
+    background-color: white;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.delete-btn:hover{
+    background-color: red;
+    color: white;
+}
+.total,.total-price{
+    display: inline-flex;
+}
+
+.total{
+    min-width: 55%;
+}
+.total-price{
+    min-width: 33%;
+    text-align: right;
+}
+
+.place-order-btn{
+    display: inline-flex;
+    border-radius: 10px;
+    color: black;
+    padding: 0px 5px;
+    border: 1px solid rgb(155, 219, 216);
+    background-color: rgb(155, 219, 216);
+}
+.filter-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .menu-tab{
+    padding: 0;
+}
+  .container2{
+    width: 80%;
+    margin-left: 200px;
+}

@@ -1,0 +1,279 @@
+    html,body{
+    padding:0;
+    margin:0;
+    width:100vw;
+    height:50vh;
+   
+    }
+    body{
+    height:100vh;
+    padding-top:0;
+    }
+  header{
+    padding:0rem 1.5rem 0rem 1.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:1rem;
+    font-family:sans-serif;
+    background-color:rgb(35, 61, 6);
+    color:white;
+    
+  }
+  
+  .cartt{
+    padding:0 1rem 0 1rem;
+    border-radius:1.5rem;
+    display:flex;
+    width:15rem;
+    height:4rem;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:2rem;
+    background-color:white;
+    color:black;
+  }
+  .cartt div{
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+  }
+  /*home conatiner*/
+  .homeie{
+    width:100%;
+    height:95vh;
+    background-color:rgb(199, 230, 153);
+  }
+  /* #fbb8c3 */
+  .con{
+    display:flex;
+  }
+  .write{
+    width:80%;
+    padding:1.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    gap:0;
+    
+  }
+  .write h1{
+    padding:0;
+    margin:0;
+    font-size:6rem;
+  }
+  
+  .write p{
+    padding:0;
+    margin:1rem;;
+    width:100%;
+    font-size:2rem;
+    text-align:left;
+  }
+  .Color{
+    margin-top: 5rem;
+    padding: 0%;
+    color: rgb(247, 247, 247);
+    font-size: 1.6rem;
+    font-weight: 200;
+  }
+  .bodyPar{
+    width:70%;
+    height:fit-content;
+    border-radius: 0.8rem;
+    background-color:rgb(245, 238, 238);
+    padding:2rem;
+    font-size:1rem;
+    word-spacing:0.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .btn-kmm{
+    margin:1rem;
+    width:fit-content;
+    font-size:1.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-radius:7px;
+    background-color:green;
+    color: white;
+    font-family:sans-serif ;
+    margin-left:0;
+  }
+  .btn-kmm:hover{
+    background-color:black;
+    transition: background-color 0.7s;
+  }
+  .imagine{
+    width:35%;
+    height:95%;
+    /*border:1px solid white;*/
+  }
+  .imagine img{
+    width:90%;
+    height:auto;
+  }
+  /* button to be floated */
+  .cards{
+    width: 20rem;
+    display:flex;
+    flex-direction:column;
+    gap:0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color:white;
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .cards{
+    position:absolute;
+    top:45rem;
+    left:95rem;
+  }
+  .cards h1{
+    padding:0.5rem;
+    margin:0;
+    font-size:1.5rem;
+    font-family:sans-serif;
+    text-align: center;
+  }
+  .cards img{
+    width:100%;
+    height:auto;
+  }
+  
+  .cards2{
+    width:16rem;
+    display:flex;
+    flex-direction:column;
+    gap:0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color:white;
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .cards2{
+    position:absolute;
+    top:63rem;
+    left:100rem;
+  }
+  .cards2 h1{
+    padding:0.5rem;
+    margin:0;
+    font-size:1.6rem;
+    font-family:sans-serif;
+    text-align: center;
+  }
+  .cards2 img{
+    width:100%;
+    height:auto;
+  }
+  
+  
+  .cards3{
+    width:17rem;
+    display:flex;
+    flex-direction:column;
+    gap:0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color:white;
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .cards3{
+    position:absolute;
+    top:65rem;
+    left:120rem;
+  }
+  .cards3 h1{
+    padding:0.5rem;
+    margin:0;
+    font-size:1.6rem;
+    font-family:sans-serif;
+    text-align: center;
+  }
+  .cards3 img{
+    width:10vw;
+    height:auto;
+  }
+  
+  .fastDel{
+    width:fit-content;
+    height:auto;
+    display:flex;
+    font-size:1.9rem;
+    align-items:center;
+    border-radius:25px;
+    font-family:sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:black;
+    color: white;
+    padding-left:0.6rem;
+    padding-right:0.6rem;
+  }
+  .fastDel{
+    position:absolute;
+    top:38rem;
+    left:98rem;
+  }
+  .fastDel i,p{
+    padding-left:0.6rem;
+    padding-right:0.6rem;
+  }
+  
+  .mssg{
+    position:absolute;
+    top:28rem;
+    width:10rem;
+    left:143rem;
+
+  }
+  .mssg img{
+    width: 10vh;
+    height: fit-content;
+  }
+  .app{
+    position:absolute;
+    top:30rem;
+    width:5rem;
+    left:110rem;
+  
+
+  }
+  .app img{
+    width: 3vw;
+    height: fit-content;
+  }
+  
+  
+  .header{
+    margin-top:4rem;
+    font-size: 3rem;
+  }
+
+  @keyframes vibrate {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-3deg); }
+    20% { transform: rotate(2deg); }
+    30% { transform: rotate(0deg); }
+    40% { transform: rotate(2deg); }
+    50% { transform: rotate(-3deg); }
+    60% { transform: rotate(0deg); }
+    70% { transform: rotate(-3deg); }
+    80% { transform: rotate(2deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(-3deg); }
+  }
+
+  .cards:hover,.cards2:hover, .cards3:hover ,.mssg,.app , .fastDel{
+    /* Starting the vibrate animation with duration 2 seconds */
+    animation: vibrate 2s;
+  
+    /* When the animation is finished, it wil start again */
+    animation-iteration-count: infinite;
+  }
+
+  .abt{
+    font-size: 15px; font-weight:500
+  }

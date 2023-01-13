@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Almond cheese",
+      "category": "Dairy",
+      "desc": "Made from Almond Milk Gluten-free",
+      "price": 240,
+      "image": "https://media.istockphoto.com/photos/yogurt-picture-id515777808?k=20&m=515777808&s=612x612&w=0&h=ojA5JmT4EnDupeQSUL8ggNxyUhXnVgNkNQr5acuht3o="
+    },
+    {
+      "id": 2,
+      "title": "Soymilk",
+      "category": "Dairy",
+      "desc": "Made from Soya",
+      "price": 100,
+      "image": "https://urbanplatter.in/wp-content/uploads/2019/11/10320-01.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tofu",
+      "category": "Dairy",
+      "desc": "Alternative of Paneer",
+      "price": 90,
+      "image": "https://www.thespruceeats.com/thmb/Fh8rd8FCNBchhMEpPRkuYRl7tS0=/1500x1000/filters:fill(auto,1)/tofu-landscape_annotated-7e94b7a2cf104d2cba22c8cf6ad7e970.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Cheese Spread",
+      "category": "Dairy",
+      "desc": "Vegan Cheddar cheese",
+      "price": 279,
+      "image": "https://urbanplatter.in/wp-content/uploads/2022/03/11790-01-Katharos-Cheddar-Spread-100g.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Almond Milk",
+      "category": "Dairy",
+      "desc": "Made from Almonds",
+      "price": 279,
+      "image": "https://m.media-amazon.com/images/I/61R5vEEZMrL._SL1500_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "protein Powder",
+      "category": "Fitness",
+      "desc": "gluten-free",
+      "price": 399,
+      "image": "https://m.media-amazon.com/images/I/71kT89JYB2L._SY606_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Rice cakes",
+      "category": "Fitness",
+      "desc": "Low Calorie Snack",
+      "price": 249,
+      "image": "https://m.media-amazon.com/images/I/81gt7e+RulL._SX522_PIbundle-2,TopRight,0,0_AA522SH20_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Vegan Chicken",
+      "desc": "Plant Based",
+      "category": "Meat",
+      "price": 159,
+      "image": "https://rukminim1.flixcart.com/image/416/416/kyeqjrk0/ready-meal/1/q/r/1-vegan-mock-meat-800g-1-desi-treat-original-imagancx6zhgbabw.jpeg?q=70"
+    },
+    {
+      "id": 9,
+      "title": "Vegan mock meat",
+      "desc": "Plant Based",
+      "category": "Meat",
+      "price": 229,
+      "image": "https://urbanplatter.in/wp-content/uploads/2019/04/9668-01-Vegan-Meat-bite-sized-spicy-chunks-200g.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Juicy burger Patties",
+      "desc": "Plant based Meat",
+      "category": "Meat",
+      "price": 129,
+      "image": "https://image.cnbcfm.com/api/v1/image/106324770-1578415436425simple-truth-plant-based-emerge-patties.jpg?v=1578415508"
+    },
+    {
+      "id": 11,
+      "title": " Chocolate Icecream",
+      "desc": "complete Dairy free",
+      "category": "Desserts",
+      "price": 159,
+      "image": "https://www.bigbasket.com/media/uploads/p/xxl/40212505_1-the-brooklyn-creamery-vegan-chocolate-therapy.jpg"
+    },
+    {
+      "id": 12,
+      "title": " Muffins",
+      "desc": "complete Dairy free",
+      "category": "Desserts",
+      "price": 99,
+      "image": "https://townsquare.media/site/959/files/2020/06/Screen-Shot-2020-06-29-at-5.11.14-PM.jpg?w=980&q=75"
+    }
+  ],
+  "order": [
+    {
+      "name": "Soymilk",
+      "price": 100,
+      "qty": 1,
+      "id": 4
+    },
+    {
+      "name": "Tofu",
+      "price": 90,
+      "qty": 2,
+      "id": 5
+    },
+    {
+      "name": "Almond cheese",
+      "price": 240,
+      "qty": 1,
+      "id": 6
+    }
+  ],
+  "register": [
+    {
+      "lname": "SRUTHISHA",
+      "email": "sruthishanatte12@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "lname": "TEJAVATH",
+      "email": "saimeghana.t20@iiits.in",
+      "password": "2345",
+      "id": 2
+    }
+  ],
+  "contact": [
+    {
+      "name": "gyr",
+      "email": "gyr@gmail.com",
+      "phonenumber": "9014757289",
+      "message": "helllo",
+      "id": 1
+    },
+    {
+      "name": "yashu",
+      "email": "yashu@gmail.com",
+      "phonenumber": "8292832354",
+      "message": "heloooo",
+      "id": 2
+    }
+  ]
+}

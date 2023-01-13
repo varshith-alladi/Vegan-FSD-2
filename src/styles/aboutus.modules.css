@@ -1,0 +1,9 @@
+.about{
+    color:darkgreen
+    
+}
+.about-body{
+    background: linear-gradient(190deg, #ffffff, #bfedd6, rgb(162, 239, 216));
+    height: 115vh;
+    margin-top: 3.8%;
+}

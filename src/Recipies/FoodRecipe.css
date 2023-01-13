@@ -1,0 +1,20 @@
+.recipe_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recipe_img {
+  max-width: 100%;
+}
+.recipe_image {
+  padding-left: 1cm;
+  flex-basis: 80%;
+}
+.recipe_text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.recipe_text p{
+  font-size: medium;
+}
+

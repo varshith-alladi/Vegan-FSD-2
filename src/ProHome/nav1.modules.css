@@ -1,0 +1,61 @@
+
+
+*{
+  box-sizing: border-box;
+
+}
+
+*html,body{
+    padding:0;
+    margin:0;
+    width:95vw;
+    height:50vh;
+   
+    }
+   * body{
+    height:60vh;
+    padding-top:0;
+    }
+ * header{
+    padding:0rem 1rem 0rem 1rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:1.8rem;
+    font-family:sans-serif;
+    background-color:rgb(35, 61, 6);
+    color:white;
+    
+  }
+  .log{
+    padding:0;
+    margin:0;
+    width:10rem;
+    height:auto;
+  }
+  .log img{
+    padding:0;
+    margin:0;
+    width:100%;
+    height:auto;
+  }
+  .bar{
+    display:flex;
+    gap:4.5rem;
+  }
+  .bar a{
+    text-decoration:none;
+    color:white;
+  }
+  .NavBar{
+    display:flex;
+    gap:1.5rem;
+    align-items:center;
+  }
+  .NavBar div i{
+    color:white;
+  }
+  .NavBar a:hover{
+    color:green;
+    transition:color 0.8s;
+  }

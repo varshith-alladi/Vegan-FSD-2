@@ -1,0 +1,52 @@
+nav a{
+    text-decoration: none;
+    font-size: medium;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-right: 30px;
+    color: white;
+}
+
+.logo-image{
+    margin:0;
+    width:10rem;
+    height:auto;
+  }
+  .logo-image img{
+    padding:0rem 1.5rem 0rem 1.5rem;
+    margin:0;
+    width:100%;
+    height:auto;
+  }
+
+
+nav a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+nav{
+    background-color: rgb(35, 61, 6);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a.active{
+    text-decoration: underline;
+}
+
+div{
+    padding: 0;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
